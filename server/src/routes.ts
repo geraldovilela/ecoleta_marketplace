@@ -6,7 +6,6 @@ import ItemsController from './controllers/ItemsControllers';
 const routes = express.Router();
 const pointscontroller = new PointsController();
 const itenscontroller = new ItemsController();
-const itenscontroller = new ItemsController();
 
 
 routes.get('/items', itenscontroller.index);
